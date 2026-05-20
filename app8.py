@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
-import os
 
-from langchain_groq.chat_models import ChatGroq
+from langchain_groq import ChatGroq
+
 from langchain_experimental.agents.agent_toolkits.pandas.base import (
     create_pandas_dataframe_agent
 )
